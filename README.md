@@ -33,11 +33,11 @@ This version of the template has been made in couple hours only, maybe better ve
 ## Game Loop
 The Game loop integrate:
 - Main menu
-![Alt text](Resources/MainMenu.PNG?raw=true "Main Menu")
+![Alt text](Resources/MainMenu.PNG)
 - Tutorial menu
-![Alt text](Resources/TutorialMenu.PNG?raw=true "Tutorial Menu")
+![Alt text](Resources/TutorialMenu.PNG)
 - Gameplay phase
-![Alt text](Resources/InGame.PNG?raw=true "Gameplay")
+![Alt text](Resources/InGame.PNG)
 - Retry menu
-![Alt text](Resources/RetryMenu.PNG?raw=true "Retry Menu")
+![Alt text](Resources/RetryMenu.PNG)
 
