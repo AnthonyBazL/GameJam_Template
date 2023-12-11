@@ -19,7 +19,7 @@ This version of the template has been made in couple hours only, maybe better ve
 - Audio management isn't present.
 
 ## Renderer pipeine
-- Built-in renderer pipeline
+- Universal render pipeline with URP 2D asset
 
 ## Platform
 - This template is only setup for Windows for now in full screen resolution.
@@ -27,6 +27,8 @@ This version of the template has been made in couple hours only, maybe better ve
 ## Package installed:
 - TextMesh Pro
 - Unity Recorder (If you'd like to record videos directly from Unity to show your work)
+- Sprite Editor
+- Universal Render Pipeline
 
 ## Game Loop
 The Game loop integrate:
