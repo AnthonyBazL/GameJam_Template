@@ -10,7 +10,7 @@ public class BulletController : MonoBehaviour
     void Update()
     { 
         float deltaTime = Time.deltaTime;
-        transform.Translate(-Vector3.forward * _moveSpeed * deltaTime);
+        transform.Translate(-Vector3.right * _moveSpeed * deltaTime);
         _timeAlive += deltaTime;
 
         if (_timeAlive >= _lifeTime || GameManager.State == GameManager.GameState.LOSE || GameManager.State == GameManager.GameState.WIN)

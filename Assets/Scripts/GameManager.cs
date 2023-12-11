@@ -28,7 +28,6 @@ public class GameManager : MonoBehaviour
             case GameState.MENU:
                 break;
             case GameState.IN_GAME:
-                _firstCamera.SetActive(false);
                 _playerController.SetAlive(true);
                 _environment.SetActive(true);
                 _player.SetActive(true);

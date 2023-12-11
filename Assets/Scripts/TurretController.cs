@@ -4,6 +4,7 @@ public class TurretController : MonoBehaviour
 {
     [SerializeField] private GameObject _bullet;
     [SerializeField] private GameObject _canon;
+    [SerializeField] private Vector2 _rangeDelayBetweenShoot;
 
     private Vector3 _spawnPosition;
     private float _delayBetweenShoot = 1.0f;
@@ -13,7 +14,7 @@ public class TurretController : MonoBehaviour
     void Start()
     {
         _spawnPosition = _canon.transform.position;
-        _delayBetweenShoot = Random.Range(0.3f, 2.0f);
+        _delayBetweenShoot = Random.Range(_rangeDelayBetweenShoot.x, _rangeDelayBetweenShoot.y);
     }
 
     void Update()
