@@ -27,7 +27,12 @@ This version of the template has been made in couple hours only, maybe better ve
 ## Package installed:
 - TextMesh Pro
 - Unity Recorder (If you'd like to record videos directly from Unity to show your work)
-- Sprite Editor
+- 2D Animation
+- 2D Pixel Perfect
+- 2D Sprite
+- 2D SpriteShape
+- 2D Tilemap Editor
+- 2D Tilemap Extras
 - Universal Render Pipeline
 
 ## Game Loop
